@@ -33,57 +33,75 @@
         <link rel="stylesheet" href="assets/css/vendor/vendor.min.css" />
         <link rel="stylesheet" href="assets/css/plugins/plugins.min.css" />
         <link rel="stylesheet" href="assets/css/style.min.css">
-
-        <!-- Main Style CSS -->
+        <style type="text/css">
+            .footer-area h4{
+                color: white !important;
+            }
+            .footer-area  a{
+                color: #ccc !important;
+            }
+            .footer-area  span{
+                color: #ccc !important;
+            }
+            .footer-area .heading-info{
+                color: #ccc !important;
+            }
+        </style>
         <!-- <link rel="stylesheet" href="assets/css/style.css" /> -->
     </head>
 
     <body>
         <!-- Header Section Start From Here -->
-        <header class="header-wrapper">
+        <header class="header-wrapper ">
             <!-- Header Nav Start -->
             <div class="header-nav">
                 <div class="container">
                     <div class="header-nav-wrapper d-md-flex d-sm-flex d-xl-flex d-lg-flex justify-content-between">
                         <div class="header-static-nav">
-                            <a href="mailto:yourname@email.com">yourname@email.com</a>
-                        </div>
+                            <a href="mailto:yourname@email.com"  > 
+                                <img class="px-2" src="assets/images/icons/phone-call.png" alt="">
+                                (+998) 99 88 77 </a> 
+                                <img class="ml-4 px-2" src="assets/images/icons/email.png" alt="">
+                             <a href="mailto:yourname@email.com"> Info@bitech.uz</a>
+                        </div> 
                         <div class="header-menu-nav">
                             <ul class="menu-nav">
                                 <li>
                                     <div class="dropdown">
-                                        <button type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My Account <i class="ion-ios-arrow-down"></i></button>
+                                        <button type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          <img src="assets/images/icons/pin.png" alt="">
+                                        Tashkent </button> 
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="dropdown">
+                                        <button type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <img class="px-2" src="assets/images/icons/shield.png" alt="">
+                                        Guarante  </button> 
+                                    </div>
+                                </lxi>
+                                 <li>
+                                    <div class="dropdown">
+                                        <button type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="px-2" src="assets/images/icons/credit-card.png" alt=""> Payment </button> 
+                                    </div>
+                                </li>
+ 
+                                <li>
+                                    <div class="dropdown">
+                                        <button type="button" id="dropdownMenuButton-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <img class="px-2" src="assets/images/icons/delivery-truck.png">
+                                        Delevery </button> 
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="dropdown">
+                                        <button type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="px-2" src="assets/images/icons/user.png" alt=""> My Account <i class="ion-ios-arrow-down"></i></button>
 
                                         <ul class="dropdown-menu animation slideDownIn" aria-labelledby="dropdownMenuButton">
                                             <li><a href="my-account.html">My account</a></li>
                                             <li><a href="checkout.html">Checkout</a></li>
                                             <li><a href="login.html">Sign in</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="dropdown">
-                                        <button type="button" id="dropdownMenuButton-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">USD $ <i class="ion-ios-arrow-down"></i></button>
-
-                                        <ul class="dropdown-menu animation slideDownIn" aria-labelledby="dropdownMenuButton-2">
-                                            <li><a href="#">EUR €</a></li>
-                                            <li><a href="#">USD $</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="pr-0">
-                                    <div class="dropdown">
-                                        <button type="button" id="dropdownMenuButton-3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            <img src="assets/images/flag/1.jpg" alt="" /> English <i class="ion-ios-arrow-down"></i>
-                                        </button>
-
-                                        <ul class="dropdown-menu animation slideDownIn" aria-labelledby="dropdownMenuButton-3">
-                                            <li>
-                                                <a href="#"><img src="assets/images/flag/1.jpg" alt="" /> English</a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><img src="assets/images/flag/2.jpg" alt="" /> Français</a>
-                                            </li>
+                                            
                                         </ul>
                                     </div>
                                 </li>
@@ -92,16 +110,246 @@
                     </div>
                 </div>
             </div>
-            <!-- Header Nav End -->
-            <div class="header-top bg-white ptb-30px d-lg-block d-none">
+                        <!-- Header Nav End -->
+            <div class="header-menu bg-white sticky-nav d-lg-block d-none padding-0px">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-3 d-flex">
+ 
+                        <div class="col-lg-3 d-flex">
                             <div class="logo align-self-center">
-                                <a href="index.html"><img class="img-responsive" src="assets/images/logo/logo.jpg" alt="logo.jpg" /></a>
+                                <a href="index.html"><img class="img-responsive" style="height: 53px" src="assets/images/logo/logo.svg" alt="logo.svg" /></a>
                             </div>
                         </div>
+                        <div class="col-lg-9">
+                            <div class="header-horizontal-menu">
+                                <ul class="menu-content">
+                                    <li class="active menu-dropdown">
+                                        <a href="#">Техника для дома <i class="ion-ios-arrow-down"></i></a>
+                                        <ul class="main-sub-menu">
+                                            <li><a href="#">Вся техника для дома</a></li>
+                                            <li><a href="#">Телевизоры</a></li>
+                                            <li><a href="#">Стиральные машины</a></li>
+                                            <li><a href="#">Кондиционеры</a></li>
+                                            <li><a href="#">Пылесосы</a></li>
+                                            <li><a href="#">Обогреватели</a></li>
+                                            <li><a href="#">Плойки и выпрямители</a></li>
+                                            <li><a href="#">Утюги и отпариватели</a></li>
+                                            <li><a href="#">Машинки для стрижки</a></li>
+                                            <li><a href="#">Напольные весы</a></li>
+                                            <li><a href="#">Электробритвы</a></li>
+                                            <li><a href="#">Эпиляторы</a></li>
+                                            <li><a href="#">Фены</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-dropdown">
+                                        <a href="#">Техника для кухни <i class="ion-ios-arrow-down"></i></a>
+                                        <ul class="main-sub-menu">
+                                            <li>
+                                                <ul>
+                                                    <li class="mega-menu-title">
+                                                        <a href="#">Вся техника для кухни</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="shop-3-column.html">Кофемашины</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="shop-4-column.html">Кофеварки</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="shop-left-sidebar.html">Холодильники</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="shop-right-sidebar.html">Газовые плиты</a>
+                                                    </li> 
+                                                    <li>
+                                                        <a href="shop-right-sidebar.html">Посудомоечные машины</a>
+                                                    </li> 
+                                                    <li>
+                                                        <a href="shop-right-sidebar.html">Микроволновые печи</a>
+                                                    </li> 
+                                                    <li>
+                                                        <a href="shop-right-sidebar.html">Варочные панели</a>
+                                                    </li> 
+                                                    <li>
+                                                        <a href="shop-right-sidebar.html">Духовые шкафы</a>
+                                                    </li> 
+                                                    <li>
+                                                        <a href="shop-right-sidebar.html">Вытяжки</a>
+                                                    </li> 
+                                                    <li>
+                                                        <a href="shop-right-sidebar.html">Мини печи</a>
+                                                    </li>
+                                                     <li>
+                                                        <a href="shop-right-sidebar.html">Мясорубки</a>
+                                                    </li> 
+                                                    <li>
+                                                        <a href="shop-right-sidebar.html">Электрочайники</a>
+                                                    </li>
+                                                     <li>
+                                                        <a href="shop-right-sidebar.html">Соковыжималки</a>
+                                                    </li> 
+                                                    <li>
+                                                        <a href="shop-right-sidebar.html">Блендеры и миксеры</a>
+                                                    </li> 
+                                                    <li>
+                                                        <a href="shop-right-sidebar.html">Тостеры и грили</a>
+                                                    </li>
+                                                     <li>
+                                                        <a href="shop-right-sidebar.html">Кухонные весы</a>
+                                                    </li>
+                                                     <li>
+                                                        <a href="shop-right-sidebar.html">Мультиварки</a>
+                                                    </li> 
+                                                </ul>
+                                            </li>  
+                                        </ul>
+                                    </li>
+                                    <li class="menu-dropdown">
+                                        <a href="#">Компьютеры <i class="ion-ios-arrow-down"></i></a>
+                                        <ul class="main-sub-menu">
+                                            <li><a href="about.html">Вся компьютерная техника</a></li>
+                                     <li><a href="about.html">Ноутбуки</a></li>
+
+                                        </ul>
+                                    </li>
+                                    <li class="menu-dropdown">
+                                        <a href="#">Телефоны <i class="ion-ios-arrow-down"></i></a>
+                                        <ul class="main-sub-menu">
+                                            <li class="menu-dropdown position-static">
+                                                <a href="#">Все телефоны </a> 
+                                            </li>
+                                            <li class="menu-dropdown position-static">
+                                                <a href="#">Смартфоны </a> 
+                                            </li>
+                                            <li class="menu-dropdown position-static">
+                                                <a href="#">Мобильные телефоны</a> 
+                                            </li>
+                                            <li class="menu-dropdown position-static">
+                                                <a href="#">Планшеты</a> 
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-dropdown">
+                                        <a href="#">Аудио и видео <i class="ion-ios-arrow-down"></i></a> 
+                                        <ul class="main-sub-menu">
+                                            <li class="menu-dropdown position-static">
+                                                 
+                                                <a href="#">Вся аудио и видео техника</a> 
+                                            </li> 
+                                            <li class="menu-dropdown position-static">
+                                                 
+                                                <a href="#">Вся аудио и видео техника</a> 
+                                            </li> 
+                                            <li class="menu-dropdown position-static">
+                                                 
+                                                <a href="#">Вся аудио и видео техника</a> 
+                                            </li> 
+                                            <li class="menu-dropdown position-static">
+                                                 
+                                                <a href="#">Вся аудио и видео техника</a> 
+                                            </li> 
+                                        </ul>
+                                    </li>
+                                    <!-- <li><a href="contact.html">contact Us</a></li> -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- row -->
+                </div>
+                <!-- container -->
+            </div>
+            <!-- Header Nav End -->
+
+            <div class="header-top bg-white ptb-30px d-lg-block d-none header-menu bg-white sticky-nav d-lg-block d-none padding-0px">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 ">
+                            <div class="header-menu-vertical">
+                                <h4 class="menu-title">Browse Categories </h4>
+                                <ul class="menu-content display-none">
+                                    <li class="menu-item"><a href="#">Televisions</a></li>
+                                    <li class="menu-item">
+                                        <a href="#">Electronics <i class="ion-ios-arrow-right"></i></a>
+                                        <ul class="sub-menu flex-wrap">
+                                            <li>
+                                                <a href="#">
+                                                    <span> <strong> Accessories & Parts</strong></span>
+                                                </a>
+                                                <ul class="submenu-item">
+                                                    <li><a href="#">Cables & Adapters</a></li>
+                                                    <li><a href="#">Batteries</a></li>
+                                                    <li><a href="#">Chargers</a></li>
+                                                    <li><a href="#">Bags & Cases</a></li>
+                                                    <li><a href="#">Electronic Cigarettes</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <span><strong>Camera & Photo</strong></span>
+                                                </a>
+                                                <ul class="submenu-item">
+                                                    <li><a href="#">Digital Cameras</a></li>
+                                                    <li><a href="#">Camcorders</a></li>
+                                                    <li><a href="#">Camera Drones</a></li>
+                                                    <li><a href="#">Action Cameras</a></li>
+                                                    <li><a href="#">Photo Studio Supplie</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <span><strong>Smart Electronics</strong></span>
+                                                </a>
+                                                <ul class="submenu-item">
+                                                    <li><a href="#">Wearable Devices</a></li>
+                                                    <li><a href="#">Smart Home Appliances</a></li>
+                                                    <li><a href="#">Smart Remote Controls</a></li>
+                                                    <li><a href="#">Smart Watches</a></li>
+                                                    <li><a href="#">Smart Wristbands</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <span><strong>Audio & Video</strong></span>
+                                                </a>
+                                                <ul class="submenu-item">
+                                                    <li><a href="#">Televisions</a></li>
+                                                    <li><a href="#">TV Receivers</a></li>
+                                                    <li><a href="#">Projectors</a></li>
+                                                    <li><a href="#">Audio Amplifier Boards</a></li>
+                                                    <li><a href="#">TV Sticks</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <!-- sub menu -->
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#">Video Games <i class="ion-ios-arrow-right"></i></a>
+                                        <ul class="sub-menu sub-menu-2">
+                                            <li>
+                                                <ul class="submenu-item">
+                                                    <li><a href="#">Handheld Game Players</a></li>
+                                                    <li><a href="#">Game Controllers</a></li>
+                                                    <li><a href="#">Joysticks</a></li>
+                                                    <li><a href="#">Stickers</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <!-- sub menu -->
+                                    </li>
+                                    <li class="menu-item"><a href="#">Digital Cameras</a></li>
+                                    <li class="menu-item"><a href="#">Headphones</a></li>
+                                    <li class="menu-item"><a href="#"> Wearable Devices</a></li>
+                                    <li class="menu-item"><a href="#"> Smart Watches</a></li>
+                                    <li class="menu-item"><a href="#"> Game Controllers</a></li>
+                                    <li class="menu-item"><a href="#"> Smart Home Appliances</a></li>
+                                </ul>
+                                <!-- menu content -->
+                            </div>
+                            <!-- header menu vertical -->
+                        </div>
                         <div class="col-md-9 align-self-center">
+
                             <div class="header-right-element d-flex">
                                 <div class="search-element media-body mr-20px">
                                     <form class="d-flex" action="#">
@@ -228,231 +476,7 @@
                     </div>
                 </div>
             </div>
-            <!-- Header Nav End -->
-            <div class="header-menu bg-white sticky-nav d-lg-block d-none padding-0px">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3">
-                            <div class="header-menu-vertical">
-                                <h4 class="menu-title">Browse Categories </h4>
-                                <ul class="menu-content display-none">
-                                    <li class="menu-item"><a href="#">Televisions</a></li>
-                                    <li class="menu-item">
-                                        <a href="#">Electronics <i class="ion-ios-arrow-right"></i></a>
-                                        <ul class="sub-menu flex-wrap">
-                                            <li>
-                                                <a href="#">
-                                                    <span> <strong> Accessories & Parts</strong></span>
-                                                </a>
-                                                <ul class="submenu-item">
-                                                    <li><a href="#">Cables & Adapters</a></li>
-                                                    <li><a href="#">Batteries</a></li>
-                                                    <li><a href="#">Chargers</a></li>
-                                                    <li><a href="#">Bags & Cases</a></li>
-                                                    <li><a href="#">Electronic Cigarettes</a></li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <span><strong>Camera & Photo</strong></span>
-                                                </a>
-                                                <ul class="submenu-item">
-                                                    <li><a href="#">Digital Cameras</a></li>
-                                                    <li><a href="#">Camcorders</a></li>
-                                                    <li><a href="#">Camera Drones</a></li>
-                                                    <li><a href="#">Action Cameras</a></li>
-                                                    <li><a href="#">Photo Studio Supplie</a></li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <span><strong>Smart Electronics</strong></span>
-                                                </a>
-                                                <ul class="submenu-item">
-                                                    <li><a href="#">Wearable Devices</a></li>
-                                                    <li><a href="#">Smart Home Appliances</a></li>
-                                                    <li><a href="#">Smart Remote Controls</a></li>
-                                                    <li><a href="#">Smart Watches</a></li>
-                                                    <li><a href="#">Smart Wristbands</a></li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <span><strong>Audio & Video</strong></span>
-                                                </a>
-                                                <ul class="submenu-item">
-                                                    <li><a href="#">Televisions</a></li>
-                                                    <li><a href="#">TV Receivers</a></li>
-                                                    <li><a href="#">Projectors</a></li>
-                                                    <li><a href="#">Audio Amplifier Boards</a></li>
-                                                    <li><a href="#">TV Sticks</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                        <!-- sub menu -->
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="#">Video Games <i class="ion-ios-arrow-right"></i></a>
-                                        <ul class="sub-menu sub-menu-2">
-                                            <li>
-                                                <ul class="submenu-item">
-                                                    <li><a href="#">Handheld Game Players</a></li>
-                                                    <li><a href="#">Game Controllers</a></li>
-                                                    <li><a href="#">Joysticks</a></li>
-                                                    <li><a href="#">Stickers</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                        <!-- sub menu -->
-                                    </li>
-                                    <li class="menu-item"><a href="#">Digital Cameras</a></li>
-                                    <li class="menu-item"><a href="#">Headphones</a></li>
-                                    <li class="menu-item"><a href="#"> Wearable Devices</a></li>
-                                    <li class="menu-item"><a href="#"> Smart Watches</a></li>
-                                    <li class="menu-item"><a href="#"> Game Controllers</a></li>
-                                    <li class="menu-item"><a href="#"> Smart Home Appliances</a></li>
-                                </ul>
-                                <!-- menu content -->
-                            </div>
-                            <!-- header menu vertical -->
-                        </div>
-                        <div class="col-lg-9">
-                            <div class="header-horizontal-menu">
-                                <ul class="menu-content">
-                                    <li class="active menu-dropdown">
-                                        <a href="#">Home <i class="ion-ios-arrow-down"></i></a>
-                                        <ul class="main-sub-menu">
-                                            <li><a href="index.html">Home 1</a></li>
-                                            <li><a href="index-2.html">Home 2</a></li>
-                                            <li><a href="index-3.html">Home 3</a></li>
-                                            <li><a href="index-4.html">Home 4</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-dropdown">
-                                        <a href="#">Shop <i class="ion-ios-arrow-down"></i></a>
-                                        <ul class="mega-menu-wrap">
-                                            <li>
-                                                <ul>
-                                                    <li class="mega-menu-title"><a href="#">Shop Grid</a></li>
-                                                    <li><a href="shop-3-column.html">Shop Grid 3 Column</a></li>
-                                                    <li><a href="shop-4-column.html">Shop Grid 4 Column</a></li>
-                                                    <li><a href="shop-left-sidebar.html">Shop Grid Left Sidebar</a></li>
-                                                    <li><a href="shop-right-sidebar.html">Shop Grid Right Sidebar</a></li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <ul>
-                                                    <li class="mega-menu-title"><a href="#">Shop List</a></li>
-                                                    <li><a href="shop-list.html">Shop List</a></li>
-                                                    <li><a href="shop-list-left-sidebar.html">Shop List Left Sidebar</a></li>
-                                                    <li><a href="shop-list-right-sidebar.html">Shop List Right Sidebar</a></li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <ul>
-                                                    <li class="mega-menu-title"><a href="#">Shop Single</a></li>
-                                                    <li><a href="single-product.html">Shop Single</a></li>
-                                                    <li><a href="single-product-variable.html">Shop Variable</a></li>
-                                                    <li><a href="single-product-affiliate.html">Shop Affiliate</a></li>
-                                                    <li><a href="single-product-group.html">Shop Group</a></li>
-                                                    <li><a href="single-product-tabstyle-2.html">Shop Tab 2</a></li>
-                                                    <li><a href="single-product-tabstyle-3.html">Shop Tab 3</a></li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <ul>
-                                                    <li class="mega-menu-title"><a href="#">Shop Single</a></li>
-                                                    <li><a href="single-product-slider.html">Shop Slider</a></li>
-                                                    <li><a href="single-product-gallery-left.html">Shop Gallery Left</a></li>
-                                                    <li><a href="single-product-gallery-right.html">Shop Gallery Right</a></li>
-                                                    <li><a href="single-product-sticky-left.html">Shop Sticky Left</a></li>
-                                                    <li><a href="single-product-sticky-right.html">Shop Sticky Right</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="w-100">
-                                                <ul class="banner-megamenu-wrapper d-flex">
-                                                    <li class="banner-wrapper mr-30px">
-                                                        <a href="single-product.html"><img src="assets/images/menu-image/banner-menu2.jpg" alt="" /></a>
-                                                    </li>
-                                                    <li class="banner-wrapper">
-                                                        <a href="single-product.html"><img src="assets/images/menu-image/banner-menu3.jpg" alt="" /></a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-dropdown">
-                                        <a href="#">Pages <i class="ion-ios-arrow-down"></i></a>
-                                        <ul class="main-sub-menu">
-                                            <li><a href="about.html">About Page</a></li>
-                                            <li><a href="cart.html">Cart Page</a></li>
-                                            <li><a href="checkout.html">Checkout Page</a></li>
-                                            <li><a href="compare.html">Compare Page</a></li>
-                                            <li><a href="login.html">Login & Register Page</a></li>
-                                            <li><a href="my-account.html">Account Page</a></li>
-                                            <li><a href="empty-cart.html">Empty Cart Page</a></li>
-                                            <li><a href="404.html">404 Page</a></li>
-                                            <li><a href="wishlist.html">Wishlist Page</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-dropdown">
-                                        <a href="#">Blog <i class="ion-ios-arrow-down"></i></a>
-                                        <ul class="main-sub-menu">
-                                            <li class="menu-dropdown position-static">
-                                                <a href="#">Blog Grid <i class="ion-ios-arrow-right"></i></a>
-                                                <ul class="main-sub-menu main-sub-menu-2">
-                                                    <li><a href="blog-grid-left-sidebar.html">Blog Grid Left Sidebar</a></li>
-                                                    <li><a href="blog-grid-right-sidebar.html">Blog Grid Right Sidebar</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="menu-dropdown position-static">
-                                                <a href="#">Blog List <i class="ion-ios-arrow-right"></i></a>
-                                                <ul class="main-sub-menu main-sub-menu-2">
-                                                    <li><a href="blog-list-left-sidebar.html">Blog List Left Sidebar</a></li>
-                                                    <li><a href="blog-list-right-sidebar.html">Blog List Right Sidebar</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="menu-dropdown position-static">
-                                                <a href="#">Blog Single <i class="ion-ios-arrow-right"></i></a>
-                                                <ul class="main-sub-menu main-sub-menu-2">
-                                                    <li><a href="blog-single-left-sidebar.html">Blog Single Left Sidebar</a></li>
-                                                    <li><a href="blog-single-right-sidebar.html">Blog Single Right Sidbar</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-dropdown">
-                                        <a href="#">Custom Menu <i class="ion-ios-arrow-down"></i></a>
-                                        <ul class="mega-menu-wrap mega-menu-wrap-2">
-                                            <li>
-                                                <div class="custom-single-item">
-                                                    <h4><a href="shop-4-column.html">Women Is Clothes & Fashion</a></h4>
-                                                    <p>Shop Women Is Clothing And Accessories And Get Inspired By The Latest Fashion Trends.</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="custom-single-item">
-                                                    <h4><a href="shop-4-column.html">Simple Style</a></h4>
-                                                    <p>A New Flattering Style With All The Comfort Of Our Linen.</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="custom-single-item">
-                                                    <h4><a href="shop-4-column.html">Easy Style</a></h4>
-                                                    <p>Endless Styling Possibilities In A Collection Full Of Versatile Pieces.</p>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="contact.html">contact Us</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- row -->
-                </div>
-                <!-- container -->
-            </div>
+ 
             <!-- header menu -->
         </header>
         <!-- Header Section End Here -->    
@@ -954,13 +978,39 @@
         </div>
     <!-- Breadcrumb Area End-->
             <!-- contact area start -->
-            <div class="contact-area mtb-50px">
-                <div class="container">
-                    <div class="contact-map mb-10">
-                        <div id="map"></div>
+            <div class="contact-area">
+                    <div class="contact-map p-0 mt-0">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d749.1599874001851!2d69.2484821!3d41.3166957!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b40d847941d%3A0x5765a18b352df71e!2sTashkent%20City%20Park!5e0!3m2!1sru!2s!4v1607080773236!5m2!1sru!2s" width="100%" height="550" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                     </div>
+                <div class="container">
                     <div class="custom-row-2">
-                        <div class="col-lg-4 col-md-5 mb-lm-30px">
+                       
+                        <div class="col-lg-8 col-md-7">
+                            <div class="contact-form">
+                                <div class="contact-title mb-30">
+                                    <h2>Get In Touch</h2>
+                                </div>
+                                <form class="contact-form-style" id="contact-form" action="https://live.hasthemes.com/html/5/abelo-preview/abelo/assets/php/mail.php" method="post">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <input name="name" placeholder="Name*" type="text" />
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <input name="email" placeholder="Email*" type="email" />
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <input name="subject" placeholder="Subject*" type="text" />
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <textarea name="message" placeholder="Your Message*"></textarea>
+                                            <button class="submit" type="submit">SEND</button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <p class="form-messege"></p>
+                            </div>
+                        </div>
+                         <div class="col-lg-4 col-md-5 mb-lm-30px">
                             <div class="contact-info-wrap">
                                 <div class="single-contact-info">
                                     <div class="contact-icon">
@@ -1013,84 +1063,22 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-8 col-md-7">
-                            <div class="contact-form">
-                                <div class="contact-title mb-30">
-                                    <h2>Get In Touch</h2>
-                                </div>
-                                <form class="contact-form-style" id="contact-form" action="https://live.hasthemes.com/html/5/abelo-preview/abelo/assets/php/mail.php" method="post">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <input name="name" placeholder="Name*" type="text" />
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <input name="email" placeholder="Email*" type="email" />
-                                        </div>
-                                        <div class="col-lg-12">
-                                            <input name="subject" placeholder="Subject*" type="text" />
-                                        </div>
-                                        <div class="col-lg-12">
-                                            <textarea name="message" placeholder="Your Message*"></textarea>
-                                            <button class="submit" type="submit">SEND</button>
-                                        </div>
-                                    </div>
-                                </form>
-                                <p class="form-messege"></p>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
-            <!-- contact area end -->
-        <!-- News letter area -->
-        <div class="news-letter-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-lg-4 mb-md-30px mb-lm-30px">
-                        <div class="title-newsletter">
-                        <h2>Sign Up For Newsletters</h2>
-                        <p class="des">Be the First to Know. Sign up for newsletter today !</p>
-                    </div>
-                    </div>
-                    <div class="col-md-12 col-lg-8">
-                        <div id="mc_embed_signup" class="subscribe-form">
-                            <form
-                                id="mc-embedded-subscribe-form"
-                                class="validate"
-                                novalidate=""
-                                target="_blank"
-                                name="mc-embedded-subscribe-form"
-                                method="post"
-                                action="http://devitems.us11.list-manage.com/subscribe/post?u=6bbb9b6f5827bd842d9640c82&amp;id=05d85f18ef"
-                            >
-                                <div id="mc_embed_signup_scroll" class="mc-form">
-                                    <input class="email" type="email" required="" placeholder="Enter your email here.." name="EMAIL" value="" />
-                                    <div class="mc-news" aria-hidden="true">
-                                        <input type="text" value="" tabindex="-1" name="b_6bbb9b6f5827bd842d9640c82_05d85f18ef" />
-                                    </div>
-                                    <div class="clear">
-                                        <input id="mc-embedded-subscribe" class="button" type="submit" name="subscribe" value="Sign Up" />
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- News letter area  End -->
 
-        <!-- Footer Area Start --> 
-        <div class="footer-area">
+      <div class="footer-area" style="background-color:#0063D1; color: #ccc; ">
             <div class="footer-container">
                 <div class="footer-top">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-6 col-lg-4 mb-md-30px mb-lm-30px">
-                                <div class="single-wedge">
+                                 <h4 class="footer-herading">Twitter Feed</h4>
                                     <div class="footer-logo">
-                                        <a href="index.html"><img class="img-responsive" src="assets/images/logo/logo.jpg" alt="logo.jpg" /></a>
+                                        <a href="index.html">
+                                            <!-- <img class="img-responsive" src="assets/images/logo/logo.jpg" alt="logo.jpg" /></a> -->
                                     </div>
+                                <div class="single-wedge">
                                     <p class="text-infor">We are a team of designers and developers that create high quality HTML template</p>
                                     <div class="need_help">
                                     <p class="add"><span class="address">Address:</span> 4710-4890 Breckinridge St, Fayetteville</p>
@@ -1101,7 +1089,7 @@
                             </div>
                             <div class="col-md-6 col-lg-2 col-sm-6 mb-md-30px mb-lm-30px">
                                 <div class="single-wedge">
-                                    <h4 class="footer-herading">Information</h4>
+                                    <h4 class="footer-herading">My account</h4>
                                     <div class="footer-links">
                                         <ul>
                                             <li><a href="#">Delivery</a></li>
@@ -1116,7 +1104,7 @@
                             </div>
                             <div class="col-md-6 col-lg-2 col-sm-6 mb-sm-30px mb-lm-30px">
                                 <div class="single-wedge">
-                                    <h4 class="footer-herading">CUSTOM LINKS</h4>
+                                    <h4 class="footer-herading">Why Buy From Us</h4>
                                     <div class="footer-links">
                                         <ul>
                                             <li><a href="#">Legal Notice</a></li>
@@ -1129,83 +1117,33 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-lg-4 ">
+                                     <div class="col-md-6 col-lg-2 col-sm-6 mb-sm-30px mb-lm-30px">
                                 <div class="single-wedge">
-                                    <h4 class="footer-herading">From Our Blog</h4>
-                                    <div class="footer-blog-slider">
-                                        <div class="footer-blog-slider-wrapper slider-nav-style-3 ">
-                                            <!-- Single-item -->
-                                            <div class="single-slider-item">
-                                                <div class="footer-blog-post d-flex mb-30px">
-                                                    <div class="footer-blog-post-top">
-                                                        <div class="post-thumbnail">
-                                                            <a href="blog-single-left-sidebar.html">
-                                                                <img src="assets/images/blog-image/blog-8.jpg" alt="">
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="footer-blog-content">
-                                                        <h4><a href="blog-single-left-sidebar.html">This is First Post For XipBlog</a></h4>
-                                                        <div class="footer-blog-meta">
-                                                            <span class="autor">Posted by <a href="#">Demo Hasthemes</a> </span>
-                                                            <span class="date">Jun 29,2020</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="footer-blog-post d-flex">
-                                                    <div class="footer-blog-post-top">
-                                                        <div class="post-thumbnail">
-                                                            <a href="blog-single-left-sidebar.html">
-                                                                <img src="assets/images/blog-image/blog-9.jpg" alt="">
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="footer-blog-content">
-                                                        <h4><a href="blog-single-left-sidebar.html">This is Secound Post For XipBlog</a></h4>
-                                                        <div class="footer-blog-meta">
-                                                            <span class="autor">Posted by <a href="#">Demo Hasthemes</a> </span>
-                                                            <span class="date">Jun 29,2020</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- Single-item -->
-                                            <div class="single-slider-item">
-                                                <div class="footer-blog-post d-flex mb-30px">
-                                                    <div class="footer-blog-post-top">
-                                                        <div class="post-thumbnail">
-                                                            <a href="blog-single-left-sidebar.html">
-                                                                <img src="assets/images/blog-image/blog-10.jpg" alt="">
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="footer-blog-content">
-                                                        <h4><a href="blog-single-left-sidebar.html">This is Third Post For XipBlog</a></h4>
-                                                        <div class="footer-blog-meta">
-                                                            <span class="autor">Posted by <a href="#">Demo Hasthemes</a> </span>
-                                                            <span class="date">Jun 29,2020</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="footer-blog-post d-flex">
-                                                    <div class="footer-blog-post-top">
-                                                        <div class="post-thumbnail">
-                                                            <a href="blog-single-left-sidebar.html">
-                                                                <img src="assets/images/blog-image/blog-11.jpg" alt="">
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="footer-blog-content">
-                                                        <h4><a href="blog-single-left-sidebar.html">This is Fourth Post For XipBlog</a></h4>
-                                                        <div class="footer-blog-meta">
-                                                            <span class="autor">Posted by <a href="#">Demo Hasthemes</a> </span>
-                                                            <span class="date">Jun 29,2020</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- Single-item end -->
-                                        </div>
+                                    <h4 class="footer-herading">Shop</h4>
+                                    <div class="footer-links">
+                                        <ul>
+                                            <li><a href="#">Legal Notice</a></li>
+                                            <li><a href="#">Prices Drop</a></li>
+                                            <li><a href="#">New Products</a></li>
+                                            <li><a href="#">Best Sales</a></li>
+                                            <li><a href="login.html">Login</a></li>
+                                            <li><a href="my-account.html">My Account</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                                     <div class="col-md-6 col-lg-2 col-sm-6 mb-sm-30px mb-lm-30px">
+                                <div class="single-wedge">
+                                    <h4 class="footer-herading">Twitter Feed</h4>
+                                    <div class="footer-links">
+                                        <ul>
+                                            <li><a href="#">Legal Notice</a></li>
+                                            <li><a href="#">Prices Drop</a></li>
+                                            <li><a href="#">New Products</a></li>
+                                            <li><a href="#">Best Sales</a></li>
+                                            <li><a href="login.html">Login</a></li>
+                                            <li><a href="my-account.html">My Account</a></li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -1245,39 +1183,6 @@
                                         </ul>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-tags">
-                    <div class="container">
-                        <div class="row"> 
-                            <div class="col-md-12">
-                                <div class="tag-content">
-                                    <ul>
-                                        <li><a href="#">Online Shopping</a></li>
-                                        <li><a href="#">Promotions</a></li>
-                                        <li><a href="#">My Orders</a></li>
-                                        <li><a href="#">Help</a></li>
-                                        <li><a href="#">Customer Service</a></li>
-                                        <li><a href="#">Support</a></li>
-                                        <li><a href="#">Most Populars</a></li>
-                                        <li><a href="#">New Arrivals</a></li>
-                                        <li><a href="#">Special Products</a></li>
-                                        <li><a href="#">Manufacturers</a></li>
-                                        <li><a href="#">Our Stores</a></li>
-                                        <li><a href="#">Shipping</a></li>
-                                        <li><a href="#">Payments</a></li>
-                                        <li><a href="#">Warantee</a></li>
-                                        <li><a href="#">Refunds</a></li>
-                                        <li><a href="#">Checkout</a></li>
-                                        <li><a href="#">Discount</a></li>
-                                        <li><a href="#">Terms & Conditions</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-12 text-center">
-                                <p class="copy-text">Copyright © <a href="https://hasthemes.com/"> HasThemes</a>. All Rights Reserved</p>
                             </div>
                         </div>
                     </div>
