@@ -1971,7 +1971,7 @@ p {
     margin: 0;
     transition: all 0.3s linear;
 }
-.list-product .img-block .second-img {
+/*.list-product .img-block .second-img {
     position: absolute;
     opacity: 0;
     transition: all 0.3s linear;
@@ -1980,7 +1980,7 @@ p {
     opacity: 0;
     position: absolute;
     top: 0;
-}
+}*/
 .list-product:hover .product-inner {
     z-index: 3;
     border-radius: 5px;
@@ -2067,7 +2067,7 @@ p {
 }
 .list-product .product-decs .pricing-meta li.current-price {
     font-weight: 700;
-    color: #272727;
+    color: #3AD654;
     font-size: 16px;
 }
 .list-product .product-decs .pricing-meta li.discount-price {
@@ -2134,7 +2134,7 @@ p {
     right: 0;
     bottom: -16px;
     margin: 0 auto;
-    opacity: 0;
+    opacity: 1;
     z-index: 5;
     webkit-transition: all 0.3s linear;
     transition: all 0.3s linear;
@@ -6261,6 +6261,11 @@ offcanvas-menu > ul > li .menu-expand {
     color: #272727;
     font-weight: 600;
 }
+.left-sidebar .recent-post-widget .recent-single-post .media-side{
+    color: #3AD654;
+    font-size: 18px;
+}
+
 .left-sidebar .recent-post-widget .recent-single-post .media-side a:hover {
     color: #0063D1;
 }
@@ -6641,9 +6646,10 @@ offcanvas-menu > ul > li .menu-expand {
 }
 .contact-area .contact-map {
     margin-bottom: 60px;
+    width: 100%;
 }
 .contact-area .contact-map #map {
-    height: 560px;
+    /*height: 560px;*/
 }
 .contact-area .custom-row-2 {
     display: flex;
