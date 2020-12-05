@@ -86,6 +86,9 @@ p {
     max-width: 100%;
     display: block;
 }
+.img-responsivea{
+    width: 90px
+}
 .mb-0px {
     margin-bottom: 0 !important;
 }
@@ -317,7 +320,7 @@ p {
     z-index: 99;
     animation: sticky 1s;
     box-shadow: 2px 4px 8px rgba(51, 51, 51, 0.25);
-    padding: 20px 0;
+    padding: 10px 0;
     border: 0;
 }
 .sticky-nav.menu_fixed.padding-0px {
@@ -1948,7 +1951,7 @@ p {
     position: relative;
     background: #fff;
     transition: all 0.3s linear;
-    padding: 2%;
+    /*padding: 2%;*/
 }
 .list-product .product-inner {
     position: relative;
@@ -1957,7 +1960,7 @@ p {
     content: "";
     background: #f2f2f2;
     width: 1px;
-    height: 92%;
+    height: 95%;
     position: absolute;
     top: 2px;
     right: 2px;
@@ -2015,7 +2018,7 @@ p {
     font-weight: 600;
 }
 .list-product .product-decs {
-    padding: 15px;
+     padding: 0 0 40px 0;
 }
 .list-product .product-decs a {
     font-size: 11px;
@@ -2132,7 +2135,7 @@ p {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: -16px;
+    bottom: 16px;
     margin: 0 auto;
     opacity: 1;
     z-index: 5;
@@ -3288,6 +3291,9 @@ offcanvas-menu > ul > li .menu-expand {
     font-weight: 700;
     content: "3";
 }
+.   .dropdown-none{
+        display: block;
+    }
 @media only screen and (max-width: 479px) {
     .header-tools .cart-info a:before {
         width: 15px;
@@ -3331,6 +3337,12 @@ offcanvas-menu > ul > li .menu-expand {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .header-tools {
         margin-right: 50px;
+    }
+  
+}
+@media only screen and (max-width: 991px) {
+   .dropdown-none{
+        display: none;
     }
 }
 @media only screen and (max-width: 767px) {
@@ -4714,6 +4726,16 @@ offcanvas-menu > ul > li .menu-expand {
     background: #fff;
     padding-top: 50px;
 }
+.description-review-topbar.nava {
+    border-bottom: none;
+    position: relative;
+    display: block;
+    margin-bottom: 0;
+    margin: auto;
+    text-align: center;
+    background: transparent;
+    padding-top: 0px;
+}
 .description-review-topbar.nav a {
     background: 0 0;
     border: 0;
@@ -4779,6 +4801,15 @@ offcanvas-menu > ul > li .menu-expand {
     text-align: left;
     padding: 40px 30px 30px 30px;
     border: 1px solid #ebebeb;
+}
+.description-review-bottoma {
+    overflow: hidden;
+    font-size: 15px;
+    /*background: #fff;*/
+    line-height: 24px;
+    text-align: left;
+    padding: 40px 30px 30px 30px;
+    border-top: 1px solid #ebebeb;
 }
 @media only screen and (max-width: 360px) {
     .description-review-bottom {
@@ -7156,3 +7187,15 @@ offcanvas-menu > ul > li .menu-expand {
       background-color: #333e48;
    border: 2px solid #333e48;
 } 
+        .footer-area h4{
+            color: white !important;
+        }
+        .footer-area  a{
+            color: #ccc !important;
+        }
+        .footer-area  span{
+            color: #ccc !important;
+        }
+        .footer-area .heading-info{
+            color: #ccc !important;
+        }
