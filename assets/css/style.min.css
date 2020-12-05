@@ -5944,9 +5944,9 @@ offcanvas-menu > ul > li .menu-expand {
     color: #0063D1;
 }
 .login-register-wrapper .login-form-container .login-register-form .button-box button {
-    background-color: #f2f2f2;
+    /*background-color: #f2f2f2;*/
     border: medium none;
-    color: #272727;
+    /*color: #272727;*/
     cursor: pointer;
     font-size: 14px;
     font-weight: 700;
@@ -5955,7 +5955,7 @@ offcanvas-menu > ul > li .menu-expand {
     text-transform: uppercase;
     transition: all 0.3s ease 0s;
     outline: 0;
-    border-radius: 5px;
+    border-radius: 5px; 
 }
 .login-register-wrapper .login-form-container .login-register-form .button-box button:hover {
     background-color: #0063D1;
@@ -7192,15 +7192,39 @@ offcanvas-menu > ul > li .menu-expand {
     color: #fff;
     border: 2px solid #fff
 }
+ 
+ 
+  .bg-deign {
+  background: #0063D1 url(../images/slider-image/bg-tech.jpg) 0 0 no-repeat;
+  background-size: cover;
+}
 
+ .bg-deign:after {
+  content: '';
+  background: rgba(0, 99, 209, 0.5);
+}
+
+ 
+/* helpers */
+  .bg-deign:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.bg-deign-linear{
+    position: relative; 
+    z-index: 5
+}
 .btn-warn:hover{
       -webkit-transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
   transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
   color: #fff;
       background-color: #333e48;
    border: 2px solid #333e48;
-} 
-<<<<<<< HEAD
+}  
         .footer-area h4{
             color: white !important;
         }
@@ -7212,8 +7236,7 @@ offcanvas-menu > ul > li .menu-expand {
         }
         .footer-area .heading-info{
             color: #ccc !important;
-        }
-=======
+        } 
 .contact-title h2{
     font-size: 22px;
 
@@ -7221,6 +7244,8 @@ offcanvas-menu > ul > li .menu-expand {
 .contact-title{
     margin-bottom: 30px;
 }
+
+
 /*My-accaunt*/
 
 
@@ -7300,7 +7325,18 @@ offcanvas-menu > ul > li .menu-expand {
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 .tab-pane img{
-    width: 100%;
-    height: 200px;
+/*    width: 100%;
+    height: 200px;*/
 }
->>>>>>> 356f7cb41625741693518e22405db52f782f203d
+ .modal-dialog-w{
+    width: 50%
+
+ }
+@media only screen and (max-width: 991px) {
+    .modal-dialog-w  {
+       width: 90%
+    }
+}
+.modal-bg {
+    background: rgba(0,99,209,0.7);
+}
