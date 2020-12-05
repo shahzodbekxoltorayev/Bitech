@@ -817,6 +817,18 @@ p {
     box-shadow: 0 0 3.76px 0.24px rgba(0, 0, 0, 0.15);
     top: 54px;
 }
+            .footer-area h4{
+                color: white !important;
+            }
+            .footer-area  a{
+                color: #ccc !important;
+            }
+            .footer-area  span{
+                color: #ccc !important;
+            }
+            .footer-area .heading-info{
+                color: #ccc !important;
+            }
 .header-menu .header-horizontal-menu li.menu-dropdown ul.main-sub-menu li {
     display: block;
     margin: 0;
@@ -6171,6 +6183,9 @@ offcanvas-menu > ul > li .menu-expand {
     margin: 0 0 15px;
     font-size: 40px;
 }
+.empty-cart-area{
+    margin: 100px 0px;
+}
 @media only screen and (max-width: 479px) {
     .about-area .about-content h2 {
         font-size: 24px;
@@ -6662,8 +6677,7 @@ offcanvas-menu > ul > li .menu-expand {
     padding-right: 5px;
 }
 .contact-area .custom-row-2 .contact-info-wrap {
-    background-color: #f3f3f3;
-    padding: 120px 70px 112px 90px;
+    padding: 50px 0px 112px 20px;
 }
 .contact-area .custom-row-2 .contact-info-wrap .single-contact-info {
     display: flex;
@@ -6745,15 +6759,14 @@ offcanvas-menu > ul > li .menu-expand {
     }
 }
 .contact-area .custom-row-2 .contact-form {
-    background-color: #f3f3f3;
-    padding: 50px 110px 50px 110px;
+    padding: 50px 50px 50px 50px;
 }
 .contact-area .custom-row-2 .contact-form .contact-title h2 {
     font-size: 24px;
     font-weight: 700;
     color: #272727;
     line-height: 1;
-    margin-bottom: 36px;
+    /*margin-bottom: 36px;*/
     margin-left: -10px;
 }
 .contact-area .custom-row-2 .contact-form .contact-form-style input,
@@ -7156,3 +7169,92 @@ offcanvas-menu > ul > li .menu-expand {
       background-color: #333e48;
    border: 2px solid #333e48;
 } 
+.contact-title h2{
+    font-size: 22px;
+
+}
+.contact-title{
+    margin-bottom: 30px;
+}
+/*My-accaunt*/
+
+
+.faq-nav {
+  flex-direction: column;
+  margin: 0 0 32px;
+  border-radius: 2px;
+  border: 1px solid #ddd;
+  box-shadow: 0 1px 5px rgba(85, 85, 85, 0.15);
+}
+.faq-nav .nav-link {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 15px 16px;
+  background-color: #fff;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+  border-radius: 0;
+  color: #616161;
+  transition: background-color .2s ease;
+}
+.faq-nav .nav-link:hover {
+  background-color: #f6f6f6;
+}
+.faq-nav .nav-link.active {
+  background-color: #f6f6f6;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.87);
+}
+.faq-nav .nav-link:last-of-type {
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom: 0;
+}
+.faq-nav .nav-link i.mdi {
+  margin-right: 5px;
+  font-size: 18px;
+  position: relative;
+}
+.tab-content .card {
+  border-radius: 0;
+}
+.tab-content .card-header {
+  padding: 15px 16px;
+  border-radius: 0;
+  background-color: #f6f6f6;
+}
+.tab-content .card-header h5 {
+  margin: 0;
+}
+.tab-content .card-header h5 button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.87);
+  text-align: left;
+  white-space: normal;
+}
+.tab-content .card-header h5 button:hover, .tab-content .card-header h5 button:focus, .tab-content .card-header h5 button:active, .tab-content .card-header h5 button:hover:active {
+  text-decoration: none;
+}
+.tab-content .card-body p {
+  color: #616161;
+}
+.tab-content .card-body p:last-of-type {
+  margin: 0;
+}
+
+.accordion > .card:not(:first-child) {
+  border-top: 0;
+}
+
+.collapse.show .card-body {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+.tab-pane img{
+    width: 100%;
+    height: 200px;
+}
