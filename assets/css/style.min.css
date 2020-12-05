@@ -5349,7 +5349,7 @@ offcanvas-menu > ul > li .menu-expand {
     font-size: 14px;
     font-weight: 600;
     line-height: 1;
-    padding: 18px 63px 17px;
+    padding: 15px 25px 15px;
     text-transform: uppercase;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -5383,10 +5383,10 @@ offcanvas-menu > ul > li .menu-expand {
 .cart-tax,
 .discount-code-wrapper,
 .grand-totall {
-    background-color: #f9f9f9;
-    border: 1px solid #ebebeb;
-    border-radius: 5px;
-    padding: 45px 30px 50px;
+    /*background-color: #f9f9f9;*/
+    /*border: 1px solid #ebebeb;*/
+    /*border-radius: 5px;*/
+    /*padding: 45px 30px 50px;*/
 }
 .cart-tax .title-wrap,
 .discount-code-wrapper .title-wrap,
@@ -5413,8 +5413,8 @@ offcanvas-menu > ul > li .menu-expand {
     font-size: 18px;
     font-weight: 700;
     margin: 0;
-    padding-right: 18px;
-    background-color: #f8f9f9;
+    padding-right: 22px;
+    /*background-color: #f8f9f9;*/
     position: relative;
     z-index: 1;
     color: #1d1d1d;
@@ -7301,6 +7301,26 @@ offcanvas-menu > ul > li .menu-expand {
 }
 .tab-pane img{
     width: 100%;
-    height: 200px;
+    /*height: 200px;*/
 }
->>>>>>> 356f7cb41625741693518e22405db52f782f203d
+.user-td {
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+    letter-spacing: 0.5px;
+}
+.pricing-meta .cuttent-price{
+    color: #3AD654;
+}
+.check-td{
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    padding: 20px 0px;
+}
+.check-td2{
+
+    padding: 0px 0px 0px 50px;
+}
+
