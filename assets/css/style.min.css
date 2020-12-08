@@ -1971,18 +1971,16 @@ p {
     transition: all 0.3s linear;
     /*padding: 2%;*/
 }
-.list-product .product-inner {
-    /*position: relative;*/
-}
+ 
 .list-product:before {
     content: "";
     background: #f2f2f2;
     width: 1px;
     height: 95%;
-    /*position: absolute;*/
+    position: absolute;
     top: 2px;
     right: 2px;
-    /*z-index: 1;*/ 
+    z-index: 1; 
 }
 .list-product .img-block {
     position: relative;
@@ -7369,5 +7367,4 @@ offcanvas-menu > ul > li .menu-expand {
 
     padding: 0px 0px 0px 50px;
 }
-
  
